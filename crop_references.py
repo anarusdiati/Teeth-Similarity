@@ -57,7 +57,9 @@ def main():
             grade = ci*5 + ri + 1
             box = (x0+px, y0+py, x1-px, y1-py)
             crop = im.crop(box)
-            name = f"ac_grade_{grade:02d}.png"
+            import os
+            os.makedirs("ac_references", exist_ok=True)
+            name = os.path.join("ac_references", f"ac_grade_{grade:02d}.png")
             crop.save(name)
             saved.append((name, crop.size))
     for n, s in sorted(saved):
