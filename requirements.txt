@@ -1,0 +1,25 @@
+# ---- Teeth-Similarity dependencies ----
+# Install:  pip install -r requirements.txt
+# Runs on Mac CPU/MPS (Apple Silicon). Python 3.10-3.13.
+
+# Core deep learning
+torch                # DINOv2 (torch.hub) + tensors; uses MPS on Apple Silicon
+torchvision          # image transforms / model utils
+timm                 # backbone helpers used by DINOv2
+
+# DINOv2 loads via torch.hub (no extra pkg). DINOv3 needs transformers:
+transformers         # DINOv3 encoder (facebook/dinov3-*), gated -> huggingface-cli login
+
+# Numerics, similarity, evaluation
+numpy
+scikit-learn         # cosine_similarity
+scipy                # spearmanr (probes, ranking)
+pandas               # sweep results tables / CSV
+
+# Images
+pillow               # image IO
+pillow-heif          # read .heic photos (e.g. iPhone shots in 'Front Teeth drg Laura')
+
+# Plotting / notebooks
+matplotlib
+jupyter              # to run the .ipynb notebooks (or use VS Code)
