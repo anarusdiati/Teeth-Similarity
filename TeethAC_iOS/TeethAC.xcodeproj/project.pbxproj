@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD79A1F016CDB05B80DEB0A /* ReferenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E518D0B845053AB3C77AF0A /* ReferenceStore.swift */; };
+		43E9B676F28B082B28792CE2 /* ROICropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A38EA38779D2B18A465842 /* ROICropper.swift */; };
+		5BC2250CE9584DB72287E3FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB218ED085C2F68E6D203FD /* ContentView.swift */; };
+		729D8154E95FB997647C52A6 /* ACGrader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053F10DC71680FC92226769 /* ACGrader.swift */; };
+		761B7FC9325FFB6B4F26B11F /* DINOv2FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5E46AA791F2DFC992A321 /* DINOv2FeatureExtractor.swift */; };
+		7E1B35E6F020E0625CE81383 /* TeethACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703C8E6A0B5E4E9450DC722 /* TeethACApp.swift */; };
+		C9575ABB3D023DDF03116EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3EE7B5EC469A4D687D4344 /* Assets.xcassets */; };
+		FFD7FCFD61B1B359FCD82E10 /* DINOv2Teeth.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E635081B972AB95145C3F /* DINOv2Teeth.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054C3545A6DCF7DA3A01A7C6 /* TeethAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeethAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4053F10DC71680FC92226769 /* ACGrader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACGrader.swift; sourceTree = "<group>"; };
+		5D5E635081B972AB95145C3F /* DINOv2Teeth.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = DINOv2Teeth.mlpackage; sourceTree = "<group>"; };
+		75E5E46AA791F2DFC992A321 /* DINOv2FeatureExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINOv2FeatureExtractor.swift; sourceTree = "<group>"; };
+		8E3EE7B5EC469A4D687D4344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9703C8E6A0B5E4E9450DC722 /* TeethACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethACApp.swift; sourceTree = "<group>"; };
+		9E518D0B845053AB3C77AF0A /* ReferenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceStore.swift; sourceTree = "<group>"; };
+		ADB218ED085C2F68E6D203FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3A38EA38779D2B18A465842 /* ROICropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROICropper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10BC2BC20551073C4DF9562D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054C3545A6DCF7DA3A01A7C6 /* TeethAC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B177DF43101D5E6913E1D8 = {
+			isa = PBXGroup;
+			children = (
+				BD72D20E9C6963B8E5726A57 /* model */,
+				8194E0FD4625C37C4E4EE26E /* Resources */,
+				707FA92518F2518308D95BCD /* Sources */,
+				10BC2BC20551073C4DF9562D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707FA92518F2518308D95BCD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4053F10DC71680FC92226769 /* ACGrader.swift */,
+				ADB218ED085C2F68E6D203FD /* ContentView.swift */,
+				75E5E46AA791F2DFC992A321 /* DINOv2FeatureExtractor.swift */,
+				9E518D0B845053AB3C77AF0A /* ReferenceStore.swift */,
+				B3A38EA38779D2B18A465842 /* ROICropper.swift */,
+				9703C8E6A0B5E4E9450DC722 /* TeethACApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8194E0FD4625C37C4E4EE26E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E3EE7B5EC469A4D687D4344 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD72D20E9C6963B8E5726A57 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E635081B972AB95145C3F /* DINOv2Teeth.mlpackage */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5EA5620C89AA91F19306FE /* TeethAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C91FA6F9F6A4CEE01F4B354 /* Build configuration list for PBXNativeTarget "TeethAC" */;
+			buildPhases = (
+				C8D77A7ADDF0FCB253C43201 /* Sources */,
+				412A1A377E60E73AF6E1E937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeethAC;
+			packageProductDependencies = (
+			);
+			productName = TeethAC;
+			productReference = 054C3545A6DCF7DA3A01A7C6 /* TeethAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F93FB93CDEE17EF5DF2289D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = 84E112517E2518BC36DD284C /* Build configuration list for PBXProject "TeethAC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 31B177DF43101D5E6913E1D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10BC2BC20551073C4DF9562D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5EA5620C89AA91F19306FE /* TeethAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412A1A377E60E73AF6E1E937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9575ABB3D023DDF03116EE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D77A7ADDF0FCB253C43201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729D8154E95FB997647C52A6 /* ACGrader.swift in Sources */,
+				5BC2250CE9584DB72287E3FB /* ContentView.swift in Sources */,
+				761B7FC9325FFB6B4F26B11F /* DINOv2FeatureExtractor.swift in Sources */,
+				FFD7FCFD61B1B359FCD82E10 /* DINOv2Teeth.mlpackage in Sources */,
+				43E9B676F28B082B28792CE2 /* ROICropper.swift in Sources */,
+				0CD79A1F016CDB05B80DEB0A /* ReferenceStore.swift in Sources */,
+				7E1B35E6F020E0625CE81383 /* TeethACApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32C46439EBB3FB46AB7DE61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CXZM7CJ824;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37BAA29053E0B382AC3D1DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teethac.app;
+				PRODUCT_NAME = TeethAC;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0B54D3F5C8B93D80A2633AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CXZM7CJ824;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC86BA93AA57F67F0BEF3428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teethac.app;
+				PRODUCT_NAME = TeethAC;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C91FA6F9F6A4CEE01F4B354 /* Build configuration list for PBXNativeTarget "TeethAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86BA93AA57F67F0BEF3428 /* Debug */,
+				37BAA29053E0B382AC3D1DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84E112517E2518BC36DD284C /* Build configuration list for PBXProject "TeethAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B54D3F5C8B93D80A2633AC /* Debug */,
+				32C46439EBB3FB46AB7DE61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F93FB93CDEE17EF5DF2289D /* Project object */;
+}

@@ -1,0 +1,6 @@
+# Untuk konversi model ke Core ML (jalankan di Mac):
+#   pip install -r requirements-coreml.txt
+torch==2.7.0
+torchvision==0.22.0
+coremltools>=8.0
+numpy>=1.24
