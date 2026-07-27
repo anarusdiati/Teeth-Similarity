@@ -1,0 +1,9 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Large-hf",
+  "device": "mps",
+  "n_foto": 18,
+  "P1_mean_abs_pearson_lum_depth": 0.5489444444444445,
+  "P1_mean_spekular_pct": 19.211111111111112,
+  "P4_mean_corr_flip": 0.9957722222222221,
+  "P4_mean_mae_flip": 0.01876111111111111
+}

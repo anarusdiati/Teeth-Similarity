@@ -1,0 +1,31 @@
+label,foto,depth_std,IQR,kekasaran
+diastema,kelas 1 dengan diastema 1,0.291,0.514,0.0046
+diastema,kelas 1 dengan diastema 2,0.31,0.58,0.0034
+normal,kelas 1 normal 1,0.288,0.509,0.0035
+normal,kelas 1 normal 2,0.332,0.627,0.0033
+normal,kelas 1 normal 3,0.199,0.141,0.003
+crowding,kelas 1 with crossbite and crowdin,0.255,0.36,0.0025
+crossbite,kelas 1 with crossbite and crowdin,0.255,0.36,0.0025
+crowding,kelas 1 with crowding lower anteri,0.234,0.368,0.0024
+crowding,kelas 1 with crowding lower anteri,0.269,0.466,0.0028
+crowding,"kelas 1 with crowding, midline shi",0.29,0.491,0.0025
+crossbite,"kelas 1 with crowding, midline shi",0.29,0.491,0.0025
+midline shift,"kelas 1 with crowding, midline shi",0.29,0.491,0.0025
+crowding,"kelas 1 with crowding, midline shi",0.283,0.483,0.0037
+crossbite,"kelas 1 with crowding, midline shi",0.283,0.483,0.0037
+midline shift,"kelas 1 with crowding, midline shi",0.283,0.483,0.0037
+protrusion,kelas 1 with deep bite and protrus,0.301,0.551,0.0034
+deep bite,kelas 1 with deep bite and protrus,0.301,0.551,0.0034
+protrusion,kelas 1 with deep bite and protrus,0.293,0.487,0.0036
+deep bite,kelas 1 with deep bite and protrus,0.293,0.487,0.0036
+protrusion,kelas 1 with deep bite and protrus,0.271,0.268,0.0031
+deep bite,kelas 1 with deep bite and protrus,0.271,0.268,0.0031
+diastema,kelas 1 with multiple diastema and,0.292,0.53,0.0046
+open bite,kelas 1 with multiple diastema and,0.292,0.53,0.0046
+crowding,kelas 1 with upper anterior croedi,0.267,0.495,0.0038
+midline shift,kelas 1 with upper anterior croedi,0.267,0.495,0.0038
+crowding,kelas 1 with upper anterior croedi,0.269,0.417,0.0034
+midline shift,kelas 1 with upper anterior croedi,0.269,0.417,0.0034
+crowding,kelas 1 with upper anterior croedi,0.228,0.324,0.0027
+midline shift,kelas 1 with upper anterior croedi,0.228,0.324,0.0027
+lain,kelas 3,0.25,0.296,0.0038

@@ -14,3 +14,17 @@ env/
 *.pt
 .cache/
 torch_hub/
+
+# Agent / editor
+.claude/
+
+# Hasil kalkulasi: BINER regenerable tidak di-commit.
+# CSV/JSON metrik dan PNG visualisasi tetap masuk sebagai bukti hasil.
+*.npy
+*.npz
+depth_out2/
+seg_out/*.npz
+!depth_out/*.csv
+!depth_out/*.json
+!seg_out/*.csv
+!seg_out/*.json

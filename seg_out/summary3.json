@@ -1,0 +1,21 @@
+{
+  "backend": "sam2",
+  "n_foto": 18,
+  "n_valid": 9,
+  "median_gigi_atas": 3.5,
+  "metrik": [
+    "fdi_suspect",
+    "LII_norm",
+    "LII_max",
+    "LII_euclid",
+    "incisal_rms",
+    "tilt_std",
+    "tilt_asym",
+    "width_asym",
+    "solidity_min",
+    "midline_dev",
+    "cant_deg",
+    "wh_central",
+    "overbite_proxy"
+  ]
+}
