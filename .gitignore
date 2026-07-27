@@ -24,6 +24,9 @@ torch_hub/
 *.npz
 depth_out2/
 seg_out/*.npz
+outputs_tmp/
+judge_out/raw_responses.jsonl
+judge_out/card_*.png
 !depth_out/*.csv
 !depth_out/*.json
 !seg_out/*.csv
