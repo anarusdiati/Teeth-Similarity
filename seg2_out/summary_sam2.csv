@@ -1,0 +1,19 @@
+foto,n_gigi,n_atas,n_bawah,n_susu,dentisi_atas,biaya_align,sentral_atas_lengkap,anterior_atas_6
+kelas 1 dengan diastema 1,7,4,2,1,perm,0.67,True,False
+kelas 1 dengan diastema 2,13,4,4,1,prim,3.51,False,False
+kelas 1 normal 1,15,4,8,4,perm,3.99,True,False
+kelas 1 normal 2,18,4,6,1,perm,5.57,True,False
+kelas 1 normal 3,16,1,5,2,prim,2.43,False,False
+kelas 1 with crossbite and crowding 1,13,1,6,5,prim,1.65,False,False
+kelas 1 with crowding lower anterior 1,7,5,0,0,perm,2.04,True,False
+kelas 1 with crowding lower anterior 2,15,5,6,0,perm,3.24,True,False
+"kelas 1 with crowding, midline shifting, crossbite incisor lateral 1",11,6,5,2,perm,2.22,True,True
+"kelas 1 with crowding, midline shifting, crossbite incisor lateral 2",9,0,2,0,perm,3.4,False,False
+kelas 1 with deep bite and protrusion 1,14,2,4,4,prim,3.96,True,False
+kelas 1 with deep bite and protrusion 2,6,2,3,0,perm,1.2,True,False
+kelas 1 with deep bite and protrusion 3,17,3,6,4,prim,2.37,False,False
+kelas 1 with multiple diastema and open bite anterior 1,13,4,4,3,perm,4.45,True,False
+kelas 1 with upper anterior croeding and midline shifting 1,6,0,4,2,perm,1.7,False,False
+kelas 1 with upper anterior croeding and midline shifting 2,12,4,5,0,perm,2.23,True,False
+kelas 1 with upper anterior croeding and midline shifting 3,12,5,6,0,perm,2.16,True,False
+kelas 3,14,5,6,4,perm,1.76,True,False
